@@ -1,0 +1,9 @@
+# binary
+/server/steam/*
+/server/rustds/*
+
+# log
+/server/output.txt
+
+# OS
+.DS_Store

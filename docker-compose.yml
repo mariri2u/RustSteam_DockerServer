@@ -1,0 +1,13 @@
+# vi ./docker-compose.yml
+version: '3'
+services:
+  rust:
+    build: .
+    ports:
+      - "28482:28482"
+    volumes:
+      - ./server:/app
+      - ./scripts:/docker-entrypoint-initdb.d 
+    working_dir: /app
+#    privileged: true
+

@@ -9,6 +9,7 @@ FROM centos:7
 # install dependencies
 RUN yum install -y wget
 RUN yum install -y ld-linux.so.2
+RUN yum install -y screen
 
 # install steam
 #RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz

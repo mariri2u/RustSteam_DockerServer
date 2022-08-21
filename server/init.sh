@@ -14,4 +14,5 @@ if [ ! -d "/tmp/check" ]; then
   chmod +x startrust.sh
   mkdir /tmp/check
 fi
+screen -S rust
 ./startrust.sh
